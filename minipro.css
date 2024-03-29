@@ -5,6 +5,22 @@ body {
   background-color: #f0f0f0; /* Set a suitable background color */
 }
 
+/*bhai sambhalal lena*/
+.mainweb{
+  margin-top: 12px;
+        width: 721px;
+        height: 151px;
+        background-color:rgb(168 180 178); 
+        position: relative;
+        border-radius: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+}
+.mainweb:hover {
+  background-color: #555;
+}
+
+
 header {
   padding: 23px 20px;
   margin-top: -91px;
@@ -12,6 +28,25 @@ header {
   color:black;
   padding: 30px 20px;
   text-align: center;
+}
+/*bhai back ke*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  font-size: 20px;
+  margin-top: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  color: rgb(143, 208, 14);
+  padding: 10px;
+  margin-bottom: 415px;
+ margin-left: 25%;
+  color: rgb(220, 49, 15);
 }
 
 nav a {
